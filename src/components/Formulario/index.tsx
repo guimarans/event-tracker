@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { IEvento } from '../../interfaces/IEvento';
+import { IEvento } from 'interfaces/IEvento';
 import style from './Formulario.module.scss';
 
 const Formulario: React.FC<{ aoSalvar: (evento: IEvento) => void }> = ({ aoSalvar }) => {

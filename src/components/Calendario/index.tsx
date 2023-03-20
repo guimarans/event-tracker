@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { IEvento } from '../../interfaces/IEvento';
+import { IEvento } from 'interfaces/IEvento';
 import style from './Calendario.module.scss';
 import ptBR from './localizacao/ptBR.json'
 import Kalend, { CalendarView } from 'kalend'

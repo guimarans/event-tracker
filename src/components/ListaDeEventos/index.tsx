@@ -1,5 +1,5 @@
 import React from 'react';
-import { IEvento } from '../../interfaces/IEvento';
+import { IEvento } from 'interfaces/IEvento';
 import Evento from '../Evento';
 import Filtro from '../Filtro';
 import style from './ListaDeEventos.module.scss';
